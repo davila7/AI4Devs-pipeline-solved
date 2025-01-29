@@ -7,4 +7,6 @@ router.get('/', getAllPositions);
 router.get('/:id/candidates', getCandidatesByPosition);
 router.get('/:id/interviewflow', getInterviewFlowByPosition);
 
+router.get('/:id/stats', getPositionStats);
+
 export default router;
